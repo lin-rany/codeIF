@@ -1,0 +1,445 @@
+[{
+    "id": 1,
+    "type": "global",
+    "instruction_format": "你的所有回答都应该用 {programming_language} 编写，不允许使用其它编程语言。",
+    "format_keys": ["programming_language"],
+    "check_format_list": [
+            "答案是用 {programming_language} 编写的吗?"
+    ]
+},
+{
+    "id": 2,
+    "type": "global",
+    "instruction_format": "你的代码每一行不应超过 {characters_num} 个字符。",
+    "format_keys": ["characters_num"],
+    "check_format_list": [
+            "代码中的任何一行都没有超过 {characters_num} 个字符吗?"
+    ]
+},
+{
+    "id": 3,
+    "type": "global",
+    "instruction_format": "你的代码应使用全局变量。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中使用了全局变量吗？"
+    ]
+},
+{
+    "id": 4,
+    "type": "global",
+    "instruction_format": "你的代码不应使用全局变量。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中没有使用任何全局变量吗?"
+    ]
+},
+{
+    "id": 5,
+    "type": "global",
+    "instruction_format": "你的函数参数最多应该有 {parameter_count} 个。",
+    "format_keys": ["parameter_count"],
+    "check_format_list": [
+            "所有的函数参数都少于或等于 {parameter_count} 吗?"
+    ]
+},
+{
+    "id": 6,
+    "type": "global",
+    "instruction_format": "你的代码不应包含超过 {function_count} 个函数。",
+    "format_keys": ["function_count"],
+    "check_format_list": [
+            "代码中是否没有超过 {function_count} 个函数?"
+    ]
+},
+{
+    "id": 7,
+    "type": "global",
+    "instruction_format": "你的代码不应包含超过 {class_count} 个类。",
+    "format_keys": ["class_count"],
+    "check_format_list": [
+            "代码中是否没有超过 {class_count} 个类?"
+    ]
+},
+{
+    "id": 8,
+    "type": "global",
+    "instruction_format": "你的代码不应使用关键字 {keyword}。",
+    "format_keys": ["keyword"],
+    "check_format_list": [
+            "代码中没有使用关键字 {keyword} 吗?"
+    ]
+},
+{
+    "id": 9,
+    "type": "global",
+    "instruction_format": "你的代码应使用关键字 {keyword}。",
+    "format_keys": ["keyword"],
+    "check_format_list": [
+            "代码中使用了关键字 {keyword} 吗?"
+    ]
+},
+{
+    "id": 10,
+    "type": "structural control",
+    "instruction_format": "你的代码应该使用数据结构 {data_structure}。",
+    "format_keys": ["data_structure"],
+    "check_format_list": [
+            "代码中使用了数据结构 {data_structure} 吗?"
+    ]
+},
+{
+    "id": 11,
+    "type": "structural control",
+    "instruction_format": "你的代码不应该使用数据结构 {data_structure}。",
+    "format_keys": ["data_structure"],
+    "check_format_list": [
+            "代码中没有使用数据结构 {data_structure} 吗?"
+    ]
+},
+{
+    "id": 12,
+    "type": "structural control",
+    "instruction_format": "你的代码应该使用 for 循环。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中使用了 for 循环吗?"
+    ]
+},
+{
+    "id": 13,
+    "type": "structural control",
+    "instruction_format": "你的代码不应该使用 for 循环。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中没有使用 for 循环吗?"
+    ]
+},
+{
+    "id": 14,
+    "type": "structural control",
+    "instruction_format": "你的代码应该使用 while 循环。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中使用了 while 循环吗?"
+    ]
+},
+{
+    "id": 15,
+    "type": "structural control",
+    "instruction_format": "你的代码不应该使用 while 循环。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中没有使用 while 循环吗?"
+    ]
+},
+{
+    "id": 16,
+    "type": "structural control",
+    "instruction_format": "你的代码应使用 if 语句进行决策。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中使用了 if 语句进行决策吗?"
+    ]
+},
+{
+    "id": 17,
+    "type": "structural control",
+    "instruction_format": "你的代码不应使用 if 语句进行决策。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中没有使用 if 语句进行决策吗?"
+    ]
+},
+{
+    "id": 18,
+    "type": "structural control",
+    "instruction_format": "你的代码应使用 switch 语句进行决策。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中使用了 switch 语句进行决策吗?"
+    ]
+},
+{
+    "id": 19,
+    "type": "structural control",
+    "instruction_format": "你的代码不应使用 switch 语句进行决策。",
+    "format_keys": [],
+    "check_format_list": [
+            "代码中没有使用 switch 语句进行决策吗?"
+    ]
+},
+{
+    "id": 20,
+    "type": "variable",
+    "instruction_format": "你的代码应该定义一个名为 {variable_name} 的变量。",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "代码中定义了名为 {variable_name} 的变量吗?"
+    ]
+},
+{
+    "id": 21,
+    "type": "variable",
+    "instruction_format": "你的代码应该定义一个名为 {enumeration_name} 的枚举。",
+    "format_keys": ["enumeration_name"],
+    "check_format_list": [
+            "代码中定义了名为 {enumeration_name} 的枚举吗?"
+    ]
+},
+{
+    "id": 22,
+    "type": "variable",
+    "instruction_format": "你的代码中的变量名应该遵循 {naming_convention} 的命名规则",
+    "format_keys": ["naming_convention"],
+    "check_format_list": [
+            "代码中的所有变量名都遵循了 {naming_convention} 的命名规则吗?"
+    ]
+},
+{
+    "id": 23,
+    "type": "variable",
+    "instruction_format": "变量 {variable_name}，类型应为 {variable_type}。",
+    "format_keys": ["variable_name", "variable_type"],
+    "check_format_list": [
+            "代码中变量 {variable_name} 的类型是否为 {variable_type}?"
+    ]
+},
+{
+    "id": 24,
+    "type": "variable",
+    "instruction_format": "变量 {variable_name}，应该是一个全局变量。",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "变量 {variable_name} 是一个全局变量吗?"
+    ]
+},
+{
+    "id": 25,
+    "type": "variable",
+    "instruction_format": "变量 {variable_name}，不应该是一个全局变量。",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "变量 {variable_name} 不是一个全局变量吗?"
+    ]
+},
+{
+    "id": 26,
+    "type": "variable",
+    "instruction_format": "变量 {variable_name}，初始值应为 {variable_value}。",
+    "format_keys": ["variable_name", "variable_value"],
+    "check_format_list": [
+            "代码中变量 {variable_name} 的初始值是 {variable_value} 吗?"
+    ]
+},
+{
+    "id": 27,
+    "type": "variable",
+    "instruction_format": "变量 {variable_name}，应该是一个常量。",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "变量 {variable_name} 是一个常量吗?"
+    ]
+},
+{
+    "id": 28,
+    "type": "variable",
+    "instruction_format": "变量 {variable_name}，不应该是一个常量。",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "变量 {variable_name} 不是一个常量吗?"
+    ]
+},
+{
+    "id": 29,
+    "type": "function",
+    "instruction_format": "你的代码中应该包含一个名为 {function_name} 的函数。",
+    "format_keys": ["function_name"],
+    "check_format_list": [
+            "代码中包含了名为 {function_name} 的函数吗?"
+    ]
+},
+{
+    "id": 30,
+    "type": "function",
+    "instruction_format": "你的代码中的函数名应遵循 {naming_convention} 命名规则。",
+    "format_keys": ["naming_convention"],
+    "check_format_list": [
+            "代码中的所有函数名都遵循了 {naming_convention} 命名规则吗?"
+    ]
+},
+{
+    "id": 31,
+    "type": "function",
+    "instruction_format": "你的代码不应使用 {disallowed_function_list} 中的任何函数。",
+    "format_keys": ["disallowed_function_list"],
+    "check_format_list": [
+            "代码中是否没有使用任何 {disallowed_function_list} 中的函数?"
+    ]
+},
+{
+    "id": 32,
+    "type": "interface",
+    "instruction_format": "你的代码应该定义一个名为 {interface_name} 的接口。",
+    "format_keys": ["interface_name"],
+    "check_format_list": [
+            "代码中定义了名为 {interface_name} 的接口吗?"
+    ]
+},
+{
+    "id": 33,
+    "type": "interface",
+    "instruction_format": "你的代码中的接口名称应遵循 {naming_convention} 命名规则。",
+    "format_keys": ["naming_convention"],
+    "check_format_list": [
+            "代码中的接口名称都遵循 {naming_convention} 命名规则吗?"
+    ]
+},
+{
+    "id": 34,
+    "type": "class",
+    "instruction_format": "你的代码应该定义一个名为 {class_name} 的类。",
+    "format_keys": ["class_name"],
+    "check_format_list": [
+            "代码中定义了一个名为 {class_name} 的类吗?"
+    ]
+},
+{
+    "id": 35,
+    "type": "class",
+    "instruction_format": "你的代码中的类名应满足 {naming_convention} 命名规则。",
+    "format_keys": ["naming_convention"],
+    "check_format_list": [
+            "代码中的所有类名都满足了 {naming_convention} 命名规则吗?"
+    ]
+},
+{
+    "id": 36,
+    "type": "file",
+    "instruction_format": "你的代码应组织成一个名为 {package_name} 的包。",
+    "format_keys": ["package_name"],
+    "check_format_list": [
+            "代码被组织到了名为 {package_name} 的包中吗?"
+    ]
+},
+{
+    "id": 37,
+    "type": "file",
+    "instruction_format": "你的代码应使用以下库 {library_list}。",
+    "format_keys": ["library_list"],
+    "check_format_list": [
+            "代码是否使用了以下库 {library_list}?"
+    ]
+},
+{
+    "id": 38,
+    "type": "file",
+    "instruction_format": "你的代码应从库 {library_name} 中使用函数 {function_name}。",
+    "format_keys": ["function_name", "library_name"],
+    "check_format_list": [
+            "代码是否从库 {library_name} 中使用了函数 {function_name}?"
+    ]
+},
+{
+    "id": 39,
+    "type": "file",
+    "instruction_format": "你的代码不应使用以下库 {disallowed_library_list}。",
+    "format_keys": ["disallowed_library_list"],
+    "check_format_list": [
+            "代码是否没有使用任何以下库 {disallowed_library_list}?"
+    ]
+},
+{
+    "id": 40,
+    "type": "combination",
+    "instruction_format": "你应该初始化一个对象 {object_name}，作为 {class_name} 类的一个实例，并使用 {parameters_name_list} 来初始化。",
+    "format_keys": ["object_name", "class_name", "parameters_name_list"],
+    "check_format_list": [
+            "代码中是否初始化了一个名为 {object_name} 的对象，作为 {class_name} 类的一个实例，并使用了 {parameters_name_list} 来初始化?"
+    ]
+},
+{
+    "id": 41,
+    "type": "combination",
+    "instruction_format": "你应该定义一个名为 {interface_name} 的接口，该接口应包含这些方法 {method_name_list}。",
+    "format_keys": ["interface_name", "method_name_list"],
+    "check_format_list": [
+            "代码中是否定义了一个名为 {interface_name} 的接口，该接口包含了这些方法 {method_name_list}?"
+    ]
+},
+{
+    "id": 42,
+    "type": "combination",
+    "instruction_format": "你的代码应该定义一个名为 {class_name} 的类，该类应实现 {interface_name} 接口。",
+    "format_keys": ["class_name", "interface_name"],
+    "check_format_list": [
+            "代码中是否定义了一个名为 {class_name} 的类，并且该类实现了 {interface_name} 接口?"
+    ]
+},
+{
+    "id": 43,
+    "type": "combination",
+    "instruction_format": "在你的代码中，类 {class_name} 应当具有这些属性 {properties_name_list}。",
+    "format_keys": ["class_name", "properties_name_list"],
+    "check_format_list": [
+            "在代码中，类 {class_name} 是否具有这些属性 {properties_name_list}?"
+    ]
+},
+{
+    "id": 44,
+    "type": "combination",
+    "instruction_format": "在你的代码中，类 {class_name} 应当具有这些方法 {method_name_list}。",
+    "format_keys": ["class_name", "method_name_list"],
+    "check_format_list": [
+            "在代码中，类 {class_name} 是否具有这些方法 {method_name_list}?"
+    ]
+},
+{
+    "id": 45,
+    "type": "combination",
+    "instruction_format": "函数 {function_name} 应当接受 {parameter_name_list} 作为参数。",
+    "format_keys": ["function_name", "parameter_name_list"],
+    "check_format_list": [
+            "函数 {function_name} 是否接受 {parameter_name_list} 作为参数?"
+    ]
+},
+{
+    "id": 46,
+    "type": "combination",
+    "instruction_format": "函数 {function_name} 应当返回一个 {return_type} 作为其结果。",
+    "format_keys": ["function_name", "return_type"],
+    "check_format_list": [
+            "函数 {function_name} 是否返回一个 {return_type} 作为其结果?"
+    ]
+},
+{
+    "id": 47,
+    "type": "combination",
+    "instruction_format": "你的代码应该被组织在名为 {package_name} 的包中，该包应包含这些类 {class_name_list}。",
+    "format_keys": ["package_name", "class_name_list"],
+    "check_format_list": [
+            "代码是否被组织在名为 {package_name} 的包中，并且该包包含了这些类 {class_name_list}?"
+    ]
+},
+{
+    "id": 48,
+    "type": "combination",
+    "instruction_format": "你的代码应该被组织在名为 {package_name} 的包中，该包应包含这些函数 {function_name_list}。",
+    "format_keys": ["package_name", "function_name_list"],
+    "check_format_list": [
+            "代码是否被组织在名为 {package_name} 的包中，并且该包包含了这些函数 {function_name_list}?"
+    ]
+},
+{
+    "id": 49,
+    "type": "global",
+    "instruction_format": "你的函数不应该超过 {line_num} 行。",
+    "format_keys": ["line_num"]
+},
+{
+    "id": 50,
+    "type": "global",
+    "instruction_format": "你的回答总共不应该超过 {line_num} 行。",
+    "format_keys": ["line_num"]
+}
+]

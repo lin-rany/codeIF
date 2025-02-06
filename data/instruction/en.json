@@ -1,0 +1,445 @@
+[{
+    "id": 1,
+    "type": "global",
+    "instruction_format": "Your entire response should be written in {programming_language}, the use of other programming languages is not allowed.",
+    "format_keys": ["programming_language"],
+    "check_format_list": [
+            "Is the answer written in {programming_language}?"
+    ]
+},
+{
+    "id": 2,
+    "type": "global",
+    "instruction_format": "Your code lines should not exceed {characters_num} characters.",
+    "format_keys": ["characters_num"],
+    "check_format_list": [
+            "Does any line of the code exceed {characters_num} characters?"
+    ]
+},
+{
+    "id": 3,
+    "type": "global",
+    "instruction_format": "Your code should use global variables.",
+    "format_keys": [],
+    "check_format_list": [
+            "Does the code use global variables?"
+    ]
+},
+{
+    "id": 4,
+    "type": "global",
+    "instruction_format": "Your code should not use global variables.",
+    "format_keys": [],
+    "check_format_list": [
+            "Does the code not use any global variables?"
+    ]
+},
+{
+    "id": 5,
+    "type": "global",
+    "instruction_format": "Your function should have at most {parameter_count} parameters.",
+    "format_keys": ["parameter_count"],
+    "check_format_list": [
+            "Do all functions have less than or equal to {parameter_count} parameters?"
+    ]
+},
+{
+    "id": 6,
+    "type": "global",
+    "instruction_format": "Your code should not have more than {function_count} functions.",
+    "format_keys": ["function_count"],
+    "check_format_list": [
+            "Does the code not have more than {function_count} functions?"
+    ]
+},
+{
+    "id": 7,
+    "type": "global",
+    "instruction_format": "Your code should not have more than {class_count} classes.",
+    "format_keys": ["class_count"],
+    "check_format_list": [
+            "Does the code not have more than {class_count} classes?"
+    ]
+},
+{
+    "id": 8,
+    "type": "global",
+    "instruction_format": "Your code should not use the {keyword} keyword.",
+    "format_keys": ["keyword"],
+    "check_format_list": [
+            "Does the code not use the {keyword} keyword?"
+    ]
+},
+{
+    "id": 9,
+    "type": "global",
+    "instruction_format": "Your code should use the {keyword} keyword.",
+    "format_keys": ["keyword"],
+    "check_format_list": [
+            "Does the code use the {keyword} keyword?"
+    ]
+},
+{
+    "id": 10,
+    "type": "structural control",
+    "instruction_format": "Your code should use data structure {data_structure}.",
+    "format_keys": ["data_structure"],
+    "check_format_list": [
+            "Did the code use data structure {data_structure}?"
+    ]
+},
+{
+    "id": 11,
+    "type": "structural control",
+    "instruction_format": "Your code should not use data structure {data_structure}.",
+    "format_keys": ["data_structure"],
+    "check_format_list": [
+            "Did the code not use data structure {data structure type}?"
+    ]
+},
+{
+    "id": 12,
+    "type": "structural control",
+    "instruction_format": "Your code should use for-loop.",
+    "format_keys": [],
+    "check_format_list": [
+            "Did the code use a for-loop?"
+    ]
+},
+{
+    "id": 13,
+    "type": "structural control",
+    "instruction_format": "Your code should not use for-loop.",
+    "format_keys": [],
+    "check_format_list": [
+            "Did the code not use for-loop?"
+    ]
+},
+{
+    "id": 14,
+    "type": "structural control",
+    "instruction_format": "Your code should use while-loop.",
+    "format_keys": [],
+    "check_format_list": [
+            "Did the code use a while-loop?"
+    ]
+},
+{
+    "id": 15,
+    "type": "structural control",
+    "instruction_format": "Your code should not use while-loop.",
+    "format_keys": [],
+    "check_format_list": [
+            "Did the code not use a while-loop?"
+    ]
+},
+{
+    "id": 16,
+    "type": "structural control",
+    "instruction_format": "Your code should use if statement for decision making.",
+    "format_keys": [],
+    "check_format_list": [
+            "Did the code use if statement for decision making?"
+    ]
+},
+{
+    "id": 17,
+    "type": "structural control",
+    "instruction_format": "Your code should not use if statement for decision making.",
+    "format_keys": [],
+    "check_format_list": [
+            "Did the code not use if statement for decision making?"
+    ]
+},
+{
+    "id": 18,
+    "type": "structural control",
+    "instruction_format": "Your code should use switch statement for decision making.",
+    "format_keys": [],
+    "check_format_list": [
+            "Did the code use switch statement for decision making?"
+    ]
+},
+{
+    "id": 19,
+    "type": "structural control",
+    "instruction_format": "Your code should not use switch statement for decision making.",
+    "format_keys": [],
+    "check_format_list": [
+            "Did the code not use switch statement for decision making?"
+    ]
+},
+{
+    "id": 20,
+    "type": "variable",
+    "instruction_format": "Your code should define a variable named {variable_name}.",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "Did the code define a variable named {variable_name}?"
+    ]
+},
+{
+    "id": 21,
+    "type": "variable",
+    "instruction_format": "Your code should define an enumeration named {enumeration_name}",
+    "format_keys": ["enumeration_name"],
+    "check_format_list": [
+            "Did the code define an enumeration named {enumeration_name}"
+    ]
+},
+{
+    "id": 22,
+    "type": "variable",
+    "instruction_format": "The variable names in your code should follow the {naming_convention} naming convention",
+    "format_keys": ["naming_convention"],
+    "check_format_list": [
+            "Did the all variable names in the code follow the {naming_convention} naming convention?"
+    ]
+},
+{
+    "id": 23,
+    "type": "variable",
+    "instruction_format": "Variable {variable_name}, type should be {variable_type}.",
+    "format_keys": ["variable_name", "variable_type"],
+    "check_format_list": [
+            "Is the type of the variable {variable_name} in the code equal to {variable_type}?"
+    ]
+},
+{
+    "id": 24,
+    "type": "variable",
+    "instruction_format": "Variable {variable_name}, should be a global variable.",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "Is variable {variable_name} a global variable?"
+    ]
+},
+{
+    "id": 25,
+    "type": "variable",
+    "instruction_format": "Variable {variable_name}, should not be a global variable.",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "Is variable {variable_name} not a global variable?"
+    ]
+},
+{
+    "id": 26,
+    "type": "variable",
+    "instruction_format": "Variable {variable_name}, the initial value should be {variable_value}.",
+    "format_keys": ["variable_name", "variable_value"],
+    "check_format_list": [
+            "Is the initial value of the variable {variable_name} in the code equal to {variable_value}?"
+    ]
+},
+{
+    "id": 27,
+    "type": "variable",
+    "instruction_format": "Variable {variable_name}, should be a constant.",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "Is variable {variable_name} a constant?"
+    ]
+},
+{
+    "id": 28,
+    "type": "variable",
+    "instruction_format": "Variable {variable_name} should not be a constant.",
+    "format_keys": ["variable_name"],
+    "check_format_list": [
+            "Is variable {variable_name} not a constant?"
+    ]
+},
+{
+    "id": 29,
+    "type": "function",
+    "instruction_format": "Your code should include a function named {function_name}.",
+    "format_keys": ["function_name"],
+    "check_format_list": [
+            "Does the code include a function named {function_name}?"
+    ]
+},
+{
+    "id": 30,
+    "type": "function",
+    "instruction_format": "The function names in your code should follow the {naming_convention}. naming convention",
+    "format_keys": ["naming_convention"],
+    "check_format_list": [
+            "Did the all function names in the code follow the {naming_convention} naming convention?"
+    ]
+},
+{
+    "id": 31,
+    "type": "function",
+    "instruction_format": "Your code should not use any functions from the {disallowed_function_list}.",
+    "format_keys": ["disallowed_function_list"],
+    "check_format_list": [
+            "Did the code not use any functions from the {disallowed_function_list}?"
+    ]
+},
+{
+    "id": 32,
+    "type": "interface",
+    "instruction_format": "Your code should define an interface named {interface_name}.",
+    "format_keys": ["interface_name"],
+    "check_format_list": [
+            "Did the code define an interface named {interface_name}?"
+    ]
+},
+{
+    "id": 33,
+    "type": "interface",
+    "instruction_format": "The interface names in your code should follow the {naming_convention} naming convention.",
+    "format_keys": ["naming_convention"],
+    "check_format_list": [
+            "Did the interface names in the code follow the {naming_convention} naming convention?"
+    ]
+},
+{
+    "id": 34,
+    "type": "class",
+    "instruction_format": "Your code should define a class named {class_name}.",
+    "format_keys": ["class_name"],
+    "check_format_list": [
+            "Did the code define a class named {class_name}?"
+    ]
+},
+{
+    "id": 35,
+    "type": "class",
+    "instruction_format": "The class names in your code should follow the {naming_convention} naming convention.",
+    "format_keys": ["naming_convention"],
+    "check_format_list": [
+            "Did the class names in the code follow the {naming_convention} naming convention?"
+    ]
+},
+{
+    "id": 36,
+    "type": "file",
+    "instruction_format": "Your code should be organized in a package named {package_name}.",
+    "format_keys": ["package_name"],
+    "check_format_list": [
+            "Is the code organized in a package named {package_name}?"
+    ]
+},
+{
+    "id": 37,
+    "type": "file",
+    "instruction_format": "Your code should import the following libraries {library_list}.",
+    "format_keys": ["library_list"],
+    "check_format_list": [
+            "Did the code import the following libraries {library_list}?"
+    ]
+},
+{
+    "id": 38,
+    "type": "file",
+    "instruction_format": "Your code should use the function {function_name} from the library {library_name}.",
+    "format_keys": ["function_name", "library_name"],
+    "check_format_list": [
+            "Did the code use the function {function_name} from the library {library_name}?"
+    ]
+},
+{
+    "id": 39,
+    "type": "file",
+    "instruction_format": "Your code should not use the following libraries {disallowed_library_list}.",
+    "format_keys": ["disallowed_library_list"],
+    "check_format_list": [
+            "Did the code not use any of the following libraries {disallowed_library_list}?"
+    ]
+},
+{
+    "id": 40,
+    "type": "combination",
+    "instruction_format": "You should initialize an object named {object_name} as an instance of the {class_name} class using {parameters_name_list} for initialization.",
+    "format_keys": ["object_name", "class_name", "parameters_name_list"],
+    "check_format_list": [
+            "Did the code initialize an object named {object_name} as an instance of the {class_name} class using {parameters_name_list} for initialization?"
+    ]
+},
+{
+    "id": 41,
+    "type": "combination",
+    "instruction_format": "You should define an interface named {interface_name} that includes these methods {method_name_list}.",
+    "format_keys": ["interface_name", "method_name_list"],
+    "check_format_list": [
+            "Did the code define an interface named {interface_name} that includes these methods {method_name_list}?"
+    ]
+},
+{
+    "id": 42,
+    "type": "combination",
+    "instruction_format": "Your code should define a class named {class_name} that implements the {interface_name} interface.",
+    "format_keys": ["class_name", "interface_name"],
+    "check_format_list": [
+            "Did the code define a class named {class_name} that implements the {interface_name} interface?"
+    ]
+},
+{
+    "id": 43,
+    "type": "combination",
+    "instruction_format": "In your code, the class {class_name} should have these properties {properties_name_list}.",
+    "format_keys": ["class_name", "properties_name_list"],
+    "check_format_list": [
+            "In the code, does the class {class_name} have these properties {properties_name_list}?"
+    ]
+},
+{
+    "id": 44,
+    "type": "combination",
+    "instruction_format": "In your code, the class {class_name} should have these methods {method_name_list}.",
+    "format_keys": ["class_name", "method_name_list"],
+    "check_format_list": [
+            "In the code, does the class {class_name} have these methods {method_name_list}?"
+    ]
+},
+{
+    "id": 45,
+    "type": "combination",
+    "instruction_format": "The function {function_name} should take {parameter_name_list} as parameters.",
+    "format_keys": ["function_name", "parameter_name_list"],
+    "check_format_list": [
+            "Does the function {function_name} take {parameter_name_list} as parameters?"
+    ]
+},
+{
+    "id": 46,
+    "type": "combination",
+    "instruction_format": "The function {function_name} should return a {return_type} as its result.",
+    "format_keys": ["function_name", "return_type"],
+    "check_format_list": [
+            "Does the function {function_name} return a {return_type} as its result?"
+    ]
+},
+{
+    "id": 47,
+    "type": "combination",
+    "instruction_format": "Your code should be organized in a package named {package_name}, which should contain these classes {class_name_list}.",
+    "format_keys": ["package_name", "class_name_list"],
+    "check_format_list": [
+            "Is the code organized in a package named {package_name}, which contains these classes {class_name_list}?"
+    ]
+},
+{
+    "id": 48,
+    "type": "combination",
+    "instruction_format": "Your code should be organized in a package named {package_name}, which should contain these functions {function_name_list}.",
+    "format_keys": ["package_name", "function_name_list"],
+    "check_format_list": [
+            "Is the code organized in a package named {package_name}, which contains these functions {function_name_list}?"
+    ]
+},
+{
+    "id": 49,
+    "type": "global",
+    "instruction_format": "Your function should not exceed {line_num} lines.",
+    "format_keys": ["line_num"]
+},
+{
+    "id": 50,
+    "type": "global",
+    "instruction_format": "Your answer in total should not exceed {line_num} lines.",
+    "format_keys": ["line_num"]
+}
+]

@@ -1,0 +1,14 @@
+model/
+*.egg-info/
+# output/
+src/__pycache__/*
+*.pyc
+*.pyc
+*.ipynb
+/src/analysis
+/data/question_transfer
+/src/question_gen
+/output
+data_set_row.csv
+.bashrc
+download.sh
