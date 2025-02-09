@@ -40,14 +40,14 @@ bash scripts/if_pipeline.sh
   - Replace placeholder values with your actual API credentials
   - Ensure execution permissions for scripts: `chmod +x scripts/*.sh`
 
-## Table of contents
+<!-- ## Table of contents
 - [CodeIF](#Introduction)
   - [📌 Introduction](#introduction)
   - [🏆 Leaderboard](#leaderboard)
   - [📋 Task](#task)
   - [📚 Data](#data)
   - [💻 Usage](#usage)
-  - [📖 Citation](#citation)
+  - [📖 Citation](#citation) -->
 
 
 ## Citation
