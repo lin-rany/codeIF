@@ -7,10 +7,9 @@ New Bench for Code Instruction Fellow
 
 
 <p align="left">
-    <a href="https://xxx.github.io/">🏠 Home Page </a> •
-    <a href="https://huggingface.co/datasets/xxxx">📊 Benchmark Data </a> •
-    <a href="https://huggingface.co/datasets/xxxx">📚 Instruct Data </a> •
-    <a href="https://mceval.github.io/xxxx">🏆 Leaderboard </a> 
+    <a href="https://lin-rany.github.io/codeif.github.io/">🏠 Home Page </a> •
+    <a href="https://huggingface.co/datasets/linrany/CodeIF">📊 Benchmark Data </a> •
+    <a href="https://lin-rany.github.io/codeif.github.io/leaderboard.html">🏆 Leaderboard </a> 
 </p>
 
 ## Setting Up
@@ -56,9 +55,9 @@ bash scripts/if_pipeline.sh
 Feel free to cite us.
 
 ```bibtex
-xxx
+TODO
 ```
 
 ## Contact
 Feel free to contact us if you have any question or cooperation!
-Email: xxxx
+Email: lin_rany@qq.com
