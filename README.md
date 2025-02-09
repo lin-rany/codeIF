@@ -60,4 +60,4 @@ TODO
 
 ## Contact
 Feel free to contact us if you have any question or cooperation!
-Email: lin_rany@qq.com
+Email: lin_rany@foxmail.com
