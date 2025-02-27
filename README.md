@@ -55,7 +55,15 @@ bash scripts/if_pipeline.sh
 Feel free to cite us.
 
 ```bibtex
-TODO
+@misc{yan2025codeifbenchmarkinginstructionfollowingcapabilities,
+      title={CodeIF: Benchmarking the Instruction-Following Capabilities of Large Language Models for Code Generation}, 
+      author={Kaiwen Yan and Hongcheng Guo and Xuanqing Shi and Jingyi Xu and Yaonan Gu and Zhoujun Li},
+      year={2025},
+      eprint={2502.19166},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2502.19166}, 
+}
 ```
 
 ## Contact
